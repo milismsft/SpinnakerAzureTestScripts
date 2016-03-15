@@ -7,6 +7,8 @@ from time import sleep, ctime
 import sys
 import TestUtilities
 
+#test2
+
 subscription_id = os.environ['AZURE_SUBSCRIPTION_ID']
 clouddriver_host = 'http://localhost:7002'
 azure_creds = os.getenv('AZURE_CREDENTIALS', 'azure-cred1')
